@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/BertoldVdb/go-ais"
 	"github.com/adrianmo/go-nmea"
+	"github.com/hootrhino/go-ais"
 )
 
 func TestWrongType(t *testing.T) {

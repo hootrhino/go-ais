@@ -1,8 +1,8 @@
 package aisnmea
 
 import (
-	"github.com/BertoldVdb/go-ais"
 	nmea "github.com/adrianmo/go-nmea"
+	"github.com/hootrhino/go-ais"
 )
 
 // VdmPacket is a packet that can be encoded into or decoded from a NMEA sentence
@@ -12,7 +12,7 @@ type VdmPacket struct {
 	MessageType string
 	Payload     []byte
 	Packet      ais.Packet
-	TagBlock 	nmea.TagBlock
+	TagBlock    nmea.TagBlock
 }
 
 type vdmAssemblyWork struct {
